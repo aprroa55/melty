@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "resourcePath": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "sourceGame": {
+      "type": "string"
+    },
+    "archiveMode": {
+      "type": "int"
+    },
+    "decodeVerified": {
+      "type": "bool"
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "brimstone_icon",
+        "resourcePath": "resources/gfx/items/collectibles/collectibles_118_brimstone.png",
+        "purpose": "Brimstone pedestal icon",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "brimstone_beam",
+        "resourcePath": "resources/gfx/effects/effect_018_lasereffects.png",
+        "purpose": "Brimstone beam; confirm exact texture from animation data",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "gaper_sprite",
+        "resourcePath": "resources/gfx/monsters/classic/monster_017_gaper.png",
+        "purpose": "Gaper enemy sprite",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "attack_fly_sprite",
+        "resourcePath": "resources/gfx/monsters/classic/monster_010_fly.png",
+        "purpose": "Attack Fly; confirm variant and animation mapping from animations.b",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "monstro_sprite",
+        "resourcePath": "resources/gfx/bosses/classic/boss_004_monstro.png",
+        "purpose": "Monstro boss sprite",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "animations",
+        "resourcePath": "resources/animations.b",
+        "purpose": "Read original animation timings, layers and frame crops; plain Rebirth uses this cache",
+        "sourceGame": "isaac",
+        "archiveMode": null,
+        "decodeVerified": false
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "resourcePath": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "sourceGame": {
+          "verified": true,
+          "evidence": "Gibbed.Rebirth commit 8454c449cc60d680d57e3edb27ea9e56009c024a: resource filename list; local presence and decoding still require verification."
+        },
+        "archiveMode": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "decodeVerified": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    }
+  ]
+}

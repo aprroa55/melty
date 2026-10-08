@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "assetRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "animationRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "hookRef": {
+      "type": "string",
+      "ref": "hooks"
+    },
+    "behavior": {
+      "type": "string"
+    },
+    "health": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "speed": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "contactDamage": {
+      "type": "float",
+      "minimum": 0.001
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "gaper",
+        "name": "Gaper",
+        "assetRef": "gaper_sprite",
+        "animationRef": "animations",
+        "hookRef": "enemy_spawn",
+        "behavior": "Chase player on the room navigation grid; use original animation data. Verify movement and damage scaling in both games.",
+        "health": null,
+        "speed": null,
+        "contactDamage": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "name": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "assetRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "animationRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "behavior": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "health": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "speed": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "contactDamage": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "attack_fly",
+        "name": "Attack Fly",
+        "assetRef": "attack_fly_sprite",
+        "animationRef": "animations",
+        "hookRef": "enemy_spawn",
+        "behavior": "Flying pursuit with contact damage; validate hitbox and animation mapping against Isaac.",
+        "health": null,
+        "speed": null,
+        "contactDamage": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "name": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "assetRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "animationRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "behavior": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "health": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "speed": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "contactDamage": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    }
+  ]
+}

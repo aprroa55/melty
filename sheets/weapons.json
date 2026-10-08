@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "assetRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "hookRef": {
+      "type": "string",
+      "ref": "hooks"
+    },
+    "chargeSeconds": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "beamSeconds": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "damagePerSecond": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "ammoPerShot": {
+      "type": "int",
+      "minimum": 1
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "brimstone",
+        "name": "Brimstone charged beam",
+        "assetRef": "brimstone_beam",
+        "hookRef": "gun_fire",
+        "chargeSeconds": null,
+        "beamSeconds": null,
+        "damagePerSecond": null,
+        "ammoPerShot": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "name": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "assetRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "chargeSeconds": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "beamSeconds": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "damagePerSecond": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "ammoPerShot": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    }
+  ]
+}

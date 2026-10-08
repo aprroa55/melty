@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "assetRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "weaponRef": {
+      "type": "string",
+      "ref": "weapons"
+    },
+    "hookRef": {
+      "type": "string",
+      "ref": "hooks"
+    },
+    "spawnRule": {
+      "type": "string"
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "brimstone",
+        "name": "Brimstone",
+        "assetRef": "brimstone_icon",
+        "weaponRef": "brimstone",
+        "hookRef": "pickup",
+        "spawnRule": "Discover during normal Gungeon play in the opening room; transform current gun only after pickup."
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "name": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "assetRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "weaponRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "spawnRule": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.local/
+.tools/
+.venv/
+__pycache__/
+*.pyc
+artifacts/
+**/bin/
+**/obj/
+generated/
+# Game content, assemblies, extracted files and credentials stay outside this repository.
+*.dll
+*.exe
+*.a
+*.b
+*.png
+*.ogg
+*.wav
+.env
+.env.*

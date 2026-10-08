@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "assetRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "animationRef": {
+      "type": "string",
+      "ref": "assets"
+    },
+    "hookRef": {
+      "type": "string",
+      "ref": "hooks"
+    },
+    "behavior": {
+      "type": "string"
+    },
+    "health": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "telegraphSeconds": {
+      "type": "float",
+      "minimum": 0.001
+    },
+    "projectileCount": {
+      "type": "int",
+      "minimum": 1
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "monstro",
+        "name": "Monstro",
+        "assetRef": "monstro_sprite",
+        "animationRef": "animations",
+        "hookRef": "boss_spawn",
+        "behavior": "Telegraphed jumps and landing attacks, plus blood-projectile volleys. Verify state timing against Isaac and collisions in Gungeon.",
+        "health": null,
+        "telegraphSeconds": null,
+        "projectileCount": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "name": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "assetRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "animationRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "behavior": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "health": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "telegraphSeconds": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "projectileCount": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    }
+  ]
+}

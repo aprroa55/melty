@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "hookRef": {
+      "type": "string",
+      "ref": "hooks"
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "implementationRef": {
+      "type": "string"
+    }
+  },
+  "rows": [
+    {
+      "values": {
+        "id": "isaac_content",
+        "purpose": "Locate the player\u2019s installed Isaac copy through Steam libraries and load original resources locally.",
+        "hookRef": "bootstrap",
+        "trigger": "Before enabling any crossover features.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "discovery",
+        "purpose": "A normal Gungeon start leads to Brimstone discovery; preserve normal guns before pickup.",
+        "hookRef": "room_ready",
+        "trigger": "Opening eligible room: place a reachable pedestal once per run.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "invasion",
+        "purpose": "Gaper and Attack Fly combat follows Brimstone discovery.",
+        "hookRef": "room_ready",
+        "trigger": "Next eligible combat room after Brimstone pickup.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "boss_encounter",
+        "purpose": "One genuine Monstro fight in the first playable version.",
+        "hookRef": "boss_spawn",
+        "trigger": "First eligible boss arena after the invasion encounter.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "run_cleanup",
+        "purpose": "Remove owned objects, callbacks and gun transformations on death, restart, floor transitions, or plugin shutdown.",
+        "hookRef": "run_end",
+        "trigger": "Run or scene lifecycle transition.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    },
+    {
+      "values": {
+        "id": "missing_isaac",
+        "purpose": "Explain missing Isaac or unsupported resource formats in-game, and leave base Gungeon playable. Never substitute look-alike content.",
+        "hookRef": "bootstrap",
+        "trigger": "Isaac not installed, unreadable, or resources cannot be decoded.",
+        "implementationRef": null
+      },
+      "checks": {
+        "id": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "purpose": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "hookRef": {
+          "verified": true,
+          "evidence": "User-approved plan in this conversation: solo Gungeon, discover Brimstone, two Isaac enemies, then Monstro."
+        },
+        "trigger": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        },
+        "implementationRef": {
+          "verified": false,
+          "evidence": "Requires inspection and verification on the PC with the installed games. Not verified in cloud."
+        }
+      }
+    }
+  ]
+}
